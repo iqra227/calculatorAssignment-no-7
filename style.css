@@ -1,0 +1,90 @@
+.free{
+    margin: 2 auto;
+    text-align: center;
+    margin-right: 2em;
+    text-decoration: underline;
+    margin-left: 90px;
+    text-decoration-style: double;
+    font-size: 50px;
+    font-style: oblique;
+
+}
+.main{
+    border: 6px solid black;
+    width:415px;
+    margin:0 auto;
+    border-radius: 10px;
+}
+.oop{
+    width: 70px;
+    margin-top: 10px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    height: 75px;
+    margin-left: 8px;
+}
+.result{
+    width: 407px;
+    color:black;
+    height: 50px;
+    background-color: gray;
+
+}
+.top{
+    width: 115px;
+    margin-top: 5px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    height: 50px;
+    margin-left:75px;
+}
+.full{
+    width: 100px;
+    margin-top: 10px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    height: 65px;
+    margin-left: 5px;
+    border-style: double;
+    border-color: black;
+    border-width: 7px;
+}
+.bee{
+    width: 70px;
+    margin-top: 10px;
+    background-color:lightcoral;
+    border-radius: 5px;
+    height: 55px;
+    margin-left: 13px; 
+}
+.bee:hover{
+    background-color:aquamarine;
+}
+.oop:hover{
+    background-color:aquamarine;
+}
+.full:hover{
+    background-color: aquamarine;
+}
+.top:hover{
+    background-color: aquamarine;
+}
+.feem{
+    width: 70px;
+    margin-top: 10px;
+    background-color: lightcoral;
+    border-radius: 5px;
+    height: 55px;
+    margin-left: 150px;
+}
+.too{
+    width: 150px;
+    margin-top: 10px;
+    background-color:burlywood;
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 65px; 
+}
+.result:hover{
+    background-color:burlywood;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="free">"Calculator"</h1>
+    <div class="main">
+         <div>
+        <input id="result" class="result" type="text">
+         </div>
+         <div>
+             <button onclick="clearResult()"class="full">C</button>
+             <button class="feem" onclick="getNumber('+')">+</button><button class="bee" onclick="getNumber('( )')"><b>( )</b></button>
+         </div>
+         <div>
+             <button class="oop" onclick="getNumber('7')">7</button>
+             <button class="oop" onclick="getNumber('8')">8</button>
+             <button class="oop" onclick="getNumber('9')">9</button>
+             <button class="bee" onclick="getNumber('/')">/</button><button class="bee"onclick="getNumber('^')">^</button>
+
+         </div>
+         <div>
+            <button class="oop" onclick="getNumber('4')">4</button>
+            <button class="oop" onclick="getNumber('5')">5</button>
+            <button class="oop" onclick="getNumber('6')">6</button>
+            <button class="bee" onclick="getNumber('*')">*</button><button class="bee"  onclick="getNumber('%')">%</button>
+         </div>
+         <div>
+            <button class="oop" onclick="getNumber('1')">1</button>
+            <button class="oop" onclick="getNumber('2')">2</button>
+            <button class="oop" onclick="getNumber('3')">3</button>
+            <button class="bee" onclick="getNumber('-')"><b>-</b></button><button class="bee"  onclick="getNumber('.')"><b>.</b></button>
+         </div>
+         <div>
+            <button class="top" onclick="getNumber('0')">0</button>
+            <button class="too" onclick="getResult()">=</button>
+         </div>
+    </div>
+     
+</body>
+<script src="app.js"></script>
+</html>
